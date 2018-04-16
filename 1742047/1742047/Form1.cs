@@ -96,7 +96,7 @@ namespace FordBell
          if (a.SoDinh > 0)
          {
             dt.Height = 50;
-            dt.Columns.Add("Begin", "Begin");
+            dt.Columns.Add("Bắt Đầu", "Bắt Đầu");
             dt.Columns.Add("End", "End");
             dt.Columns.Add("Distance", "Distance");
             dt.Rows.Clear();
@@ -198,7 +198,7 @@ namespace FordBell
       private void button3_Click(object sender, EventArgs e)
       {
          //this.Width = 953;
-         this.Text = "Demo Tìm đường đi ngắn nhất bằng Ford Bellman - CNTT K35 - Đại học Sư Phạm TP. HCM";
+         this.Text = "Demo Tìm đường đi ngắn nhất bằng Ford Bellman";
          // button5.Location = new Point(854, 503);
          //this.Height = 578;
          Nhapmatran a = new Nhapmatran();
