@@ -63,7 +63,7 @@ namespace FordBell
                tam.sodinh = a.SoDinh;
                this.Width = 953;
                button5.Location = new Point(854, 503);
-               this.Text = "Demo Tìm đường đi ngắn nhất bằng Ford Bellman - CNTT K35 - Đại học Sư Phạm TP. HCM";
+               this.Text = "Tìm đường đi ngắn nhất bằng Ford Bellman";
                ToListView();
             }
             else

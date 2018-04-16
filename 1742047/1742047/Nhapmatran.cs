@@ -39,7 +39,8 @@ namespace FordBell
                 {
                    if (mt[i,j]==0 && i!=j)
                    {
-                       dt[j, i].Value = "∞";
+                       dt[j, i].Style.BackColor = Color.DeepSkyBlue;
+                       dt[j, i].Value = "0";
                    }
                     else
                     dt[j,i].Value = mt[i, j];
@@ -94,7 +95,7 @@ namespace FordBell
             int ts = int.Parse(trongso.Text);
             if (dinhcuoi==dinhdau)
             {
-                MessageBox.Show("Dữ liệu không hợp lệ");
+                MessageBox.Show("Ma trận đối xứng");
             }
             else
             mt[dinhdau-1, dinhcuoi-1] = mt[dinhcuoi-1, dinhdau-1] = ts;
@@ -180,6 +181,11 @@ namespace FordBell
                 }
             }
             ToListView();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

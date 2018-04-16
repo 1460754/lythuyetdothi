@@ -11,3 +11,15 @@ D:\Study\HCDH\Lý thuyết đồ thị\doan\1742047\1742047\obj\Debug\1742047.cs
 D:\Study\HCDH\Lý thuyết đồ thị\doan\1742047\1742047\obj\Debug\1742047.csproj.CoreCompileInputs.cache
 D:\Study\HCDH\Lý thuyết đồ thị\doan\1742047\1742047\obj\Debug\1742047.exe
 D:\Study\HCDH\Lý thuyết đồ thị\doan\1742047\1742047\obj\Debug\1742047.pdb
+C:\Users\anhtr\Source\Repos\lythuyetdothi\1742047\1742047\bin\Debug\1742047.exe.config
+C:\Users\anhtr\Source\Repos\lythuyetdothi\1742047\1742047\bin\Debug\1742047.exe
+C:\Users\anhtr\Source\Repos\lythuyetdothi\1742047\1742047\bin\Debug\1742047.pdb
+C:\Users\anhtr\Source\Repos\lythuyetdothi\1742047\1742047\obj\Debug\1742047.csprojResolveAssemblyReference.cache
+C:\Users\anhtr\Source\Repos\lythuyetdothi\1742047\1742047\obj\Debug\FordBell.About.resources
+C:\Users\anhtr\Source\Repos\lythuyetdothi\1742047\1742047\obj\Debug\FordBell.Form1.resources
+C:\Users\anhtr\Source\Repos\lythuyetdothi\1742047\1742047\obj\Debug\FordBell.Nhapmatran.resources
+C:\Users\anhtr\Source\Repos\lythuyetdothi\1742047\1742047\obj\Debug\_1742047.Properties.Resources.resources
+C:\Users\anhtr\Source\Repos\lythuyetdothi\1742047\1742047\obj\Debug\FordBell.suamatran.resources
+C:\Users\anhtr\Source\Repos\lythuyetdothi\1742047\1742047\obj\Debug\1742047.csproj.GenerateResource.Cache
+C:\Users\anhtr\Source\Repos\lythuyetdothi\1742047\1742047\obj\Debug\1742047.exe
+C:\Users\anhtr\Source\Repos\lythuyetdothi\1742047\1742047\obj\Debug\1742047.pdb
