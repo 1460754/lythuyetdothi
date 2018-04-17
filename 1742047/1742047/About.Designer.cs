@@ -47,12 +47,14 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(304, 270);
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(220, 280);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(191, 66);
+            this.button1.Size = new System.Drawing.Size(156, 53);
             this.button1.TabIndex = 1;
             this.button1.Text = "OK";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // About
