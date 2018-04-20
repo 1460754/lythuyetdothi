@@ -51,6 +51,7 @@
             this.tb = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pb)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dt)).BeginInit();
@@ -58,11 +59,11 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackColor = System.Drawing.Color.SkyBlue;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(21, 106);
+            this.button1.Location = new System.Drawing.Point(61, 24);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(82, 35);
+            this.button1.Size = new System.Drawing.Size(85, 35);
             this.button1.TabIndex = 3;
             this.button1.Text = "Nhập từ File";
             this.button1.UseVisualStyleBackColor = false;
@@ -77,7 +78,7 @@
             this.start.Enabled = false;
             this.start.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.start.FormattingEnabled = true;
-            this.start.Location = new System.Drawing.Point(49, 354);
+            this.start.Location = new System.Drawing.Point(85, 262);
             this.start.Name = "start";
             this.start.Size = new System.Drawing.Size(51, 28);
             this.start.TabIndex = 6;
@@ -87,7 +88,7 @@
             this.end.Enabled = false;
             this.end.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.end.FormattingEnabled = true;
-            this.end.Location = new System.Drawing.Point(52, 403);
+            this.end.Location = new System.Drawing.Point(85, 296);
             this.end.Name = "end";
             this.end.Size = new System.Drawing.Size(51, 28);
             this.end.TabIndex = 7;
@@ -97,7 +98,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(17, 357);
+            this.label1.Location = new System.Drawing.Point(50, 265);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(29, 20);
             this.label1.TabIndex = 8;
@@ -108,7 +109,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 406);
+            this.label2.Location = new System.Drawing.Point(37, 299);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 20);
             this.label2.TabIndex = 9;
@@ -116,12 +117,12 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackColor = System.Drawing.Color.SkyBlue;
             this.button2.Enabled = false;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(2, 303);
+            this.button2.Location = new System.Drawing.Point(54, 213);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(143, 30);
+            this.button2.Size = new System.Drawing.Size(92, 43);
             this.button2.TabIndex = 10;
             this.button2.Text = "Tìm Đường đi ngắn nhất";
             this.button2.UseVisualStyleBackColor = false;
@@ -129,12 +130,12 @@
             // 
             // pb
             // 
-            this.pb.BackColor = System.Drawing.Color.Transparent;
+            this.pb.BackColor = System.Drawing.Color.SkyBlue;
             this.pb.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pb.ContextMenuStrip = this.contextMenuStrip1;
-            this.pb.Location = new System.Drawing.Point(151, 106);
+            this.pb.Location = new System.Drawing.Point(164, 12);
             this.pb.Name = "pb";
-            this.pb.Size = new System.Drawing.Size(1009, 438);
+            this.pb.Size = new System.Drawing.Size(873, 458);
             this.pb.TabIndex = 2;
             this.pb.TabStop = false;
             // 
@@ -188,9 +189,9 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.BackColor = System.Drawing.Color.SkyBlue;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(18, 173);
+            this.button3.Location = new System.Drawing.Point(61, 65);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(85, 35);
             this.button3.TabIndex = 13;
@@ -215,7 +216,7 @@
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dt.DefaultCellStyle = dataGridViewCellStyle1;
             this.dt.GridColor = System.Drawing.SystemColors.Control;
-            this.dt.Location = new System.Drawing.Point(1004, 137);
+            this.dt.Location = new System.Drawing.Point(896, 12);
             this.dt.Name = "dt";
             this.dt.ReadOnly = true;
             this.dt.RowHeadersVisible = false;
@@ -235,13 +236,14 @@
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.Color.SkyBlue;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(18, 242);
+            this.button4.Location = new System.Drawing.Point(61, 106);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(82, 35);
+            this.button4.Size = new System.Drawing.Size(85, 35);
             this.button4.TabIndex = 16;
             this.button4.Text = "Cập nhật";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
@@ -255,15 +257,28 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.SkyBlue;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(12, 388);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(134, 43);
+            this.button6.TabIndex = 19;
+            this.button6.Text = "Thoát Chương Trình";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1186, 675);
+            this.ClientSize = new System.Drawing.Size(1050, 482);
             this.ContextMenuStrip = this.contextMenuStrip1;
             this.ControlBox = false;
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.tb);
             this.Controls.Add(this.lienthong);
@@ -314,6 +329,7 @@
         private System.Windows.Forms.ToolStripMenuItem cậpNhậtToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thôngTinTácGiảToolStripMenuItem;
         private System.Windows.Forms.Button button5;
-   }
+        private System.Windows.Forms.Button button6;
+    }
 }
 
