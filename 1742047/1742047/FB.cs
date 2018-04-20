@@ -93,11 +93,11 @@ namespace FordBell
                 }
             }
         }
-#endregion
-        #region  method
+      #endregion
+      #region  method
 
-      
-        public bool DFS(int s)
+
+      public bool DFS(int s)
         {
 
             int[] danhdau = new int[sodinh];

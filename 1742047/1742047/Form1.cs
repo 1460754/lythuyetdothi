@@ -23,8 +23,8 @@ namespace FordBell
       }
 
 
-      FB a;
-
+     // FB a;
+      Floyd a;
 
       private void button1_Click(object sender, EventArgs e)
       {
@@ -34,7 +34,7 @@ namespace FordBell
             openFileDialog1.Filter = "Tập tin đồ thị | *.txt";
             openFileDialog1.ShowDialog();
 
-            a = new FB(openFileDialog1.FileName);
+            a = new Floyd(openFileDialog1.FileName);
 
             if (a.KiemTraVoHuong())
             {
@@ -215,8 +215,8 @@ namespace FordBell
 
       public void button4_Click(object sender, EventArgs e)
       {
-         a = new FB(tam.sodinh, tam.matran);
-
+         //a = new FB(tam.sodinh, tam.matran);
+         a = new Floyd(tam.sodinh, tam.matran);
          start.Items.Clear();
          end.Items.Clear();
          for (int i = 1; i <= a.SoDinh; i++)
